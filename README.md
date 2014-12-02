@@ -1,4 +1,4 @@
-projektWypozyczalnia
+﻿projektWypozyczalnia
 ====================
 
-Projekt z kursu Projektowanie systemów internetowych i mobilnych
+Projekt Wypożyczalnia Samochodów z kursu Projektowanie systemów internetowych i mobilnych.
