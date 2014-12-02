@@ -1,0 +1,9 @@
+CREATE TABLE `uzytkownicy` (
+`ID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`nick` VARCHAR( 50 ) NOT NULL ,
+`haslo` VARCHAR( 32 ) NOT NULL ,
+`email` VARCHAR( 50 ) NOT NULL ,
+`ranga` INT NOT NULL ,
+`osobie` TEXT NOT NULL ,
+`data` DATETIME NOT NULL
+) ENGINE = MYISAM ;

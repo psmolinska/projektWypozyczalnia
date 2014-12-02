@@ -1,0 +1,58 @@
+body,html{margin:0px;padding:0px;border:none;height:auto;width:auto;background:#ffffff;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:13px;color:#1C2A47}
+h1{font-size:15px;font-weight:normal}
+h2{font-size:22px;border-left:20px solid #37A6A6;padding:5px;margin:0px}
+h3{font-size:18px;margin-bottom:4px}
+h4{font-size:15px;margin:0px}
+a{color:#105D9F;text-decoration:none}
+a:hover{text-decoration:underline}
+.clear{clear:both}
+.left{float:left}
+.right{float:right}
+div.top{position:relative;width:auto;min-width:1024px;height:auto;margin:auto;background:#37A6A6;color:#ffffff;border-bottom:1px solid #277575;box-shadow:0px 0px 1px #7A7A7A;z-index:3}
+div.top-inside{position:relative;width:1024px;height:auto;margin:auto}
+img.logo{float:left;width:80px;height:80px;border:0px;margin-top:10px;margin-left:20px;margin-right:20px}
+div.h1{padding:15px 20px 40px 20px}
+div.menutop{position:absolute;width:auto;height:27px;bottom:0px;right:20px}
+a.menutop1{display:block;float:right;margin-right:5px;width:auto;height:18px;padding:10px 10px 6px 10px;background:#ffffff;color:#1C2A47;font-weight:bold;text-decoration:none;border-left:1px solid #C4CDE0;border-right:1px solid #C4CDE0;border-radius:5px 5px 0px 0px;box-shadow:0px -1px 1px #7A7A7A}
+a.menutop1:hover{color:#3B5998;text-decoration:underline}
+a.menutop2{display:block;float:right;margin-right:5px;width:auto;height:15px;padding:6px 10px 6px 10px;border-top:1px solid #C4CDE0;border-left:1px solid #C4CDE0;border-right:1px solid #C4CDE0;color:#808080;text-decoration:none;background:#F1F3F8;border-radius:5px 5px 0px 0px}
+a.menutop2:hover{text-decoration:underline}
+div.home{position:relative;width:964px;height:auto;padding:20px 30px 0px 30px;margin:auto;z-index:2}
+div.social{position:absolute;left:120px;bottom:0px;margin:7px 0px 7px 0px;z-index:4}
+div.fb-like{float:right;margin-right:10px}
+table.tekst td{vertical-align:top}
+div.tekst{padding:15px 0px 25px 0px;margin-right:30px;font-size:14px;line-height:24px;border-top:1px solid #C4CDE0}
+div.tresc{padding:15px 20px 0px 20px;margin:0px 10px 15px 0px;border:2px solid #E7E7E7;border-radius:5px;text-align:justify}
+div.tresc div.tekst{margin-right:0px}
+a.wiecej{display:block;padding:2px 2px 2px 18px;background:url(../images/arrow-up.png) center left no-repeat}
+a.wiecej span{color:#1C2A47;font-weight:bold}
+div.menu-left{float:left;width:210px;margin-top:30px}
+ul.menu-left{list-style-type:none;width:210px;margin:0px;padding:0px}
+ul.menu-left li{list-style-type:none;width:210px;margin:0px 0px 4px 0px;padding:0px}
+ul.menu-left li a:link, ul.menu-left li a:visited{display:block;width:190px;padding:6px 10px 6px 10px;background:#F1F3F8 url(../images/arrow-left.png) center right no-repeat;text-decoration:none;color:#808080;font-size:12px;font-weight:bold}
+ul.menu-left li.active a:link, ul.menu-left li.active a:visited {background:#d3ddf8 url(../images/arrow-right.png) center right no-repeat;box-shadow:0px 0px 4px #7A7A7A;color:#1C2A47}
+ul.menu-left li a:hover{background-color:#e4eaf8}
+ul.menu-left li.blank{height:30px}
+div.tresc-right{float:right;width:680px;padding:0px 20px 0px 20px;margin-top:10px;border:2px solid #E7E7E7;border-radius:5px}
+div.kontaktinforma{float:right;width:280px;height:auto;padding:15px;border:1px solid #E7E7E7;border-radius:5px}
+div.mapkadojazdowa{width:250px;height:180px;padding:10px;margin:auto;background:#F1F1E6;color:#808080}
+div.kontakt-formularz{float:left;width:580px;height:auto;padding:20px}
+div.kontaktform_przyciski{float:right;width:160px;margin-top:15px;margin-right:20px}
+div.kontakt_info_center{position:relative;width:576px;height:auto;margin:auto;text-align:center;z-index:3}
+div.kontakt_info{position:absolute;display:none;bottom:-10px;left:0px;width:576px;height:auto;padding-top:12px;padding-bottom:12px;background:#008000;color:#ffffff;text-align:center;z-index:1}
+div.kontakt_info_zamknij{position:absolute;top:2px;right:2px;width:22px;height:22px;background:#ffffff;color:#000000;font-weight:bold;text-align:center;z-index:1}
+.kontakt_pole{width:576px;padding:5px;margin-top:5px;background:#F1F1E6;border:1px solid #E7E7E7;border-radius:5px}
+.kontakt_invalid{width:576px;padding:5px;margin-top:5px;background:#F1F1E6;border:solid 1px #e00000;border-radius:5px}
+div.bottom{position:relative;width:auto;min-width:1024px;height:auto;background:#37A6A6;color:#ffffff;border-top:1px solid #277575;border-bottom:1px solid #277575;z-index:1}
+div.stopka{position:relative;width:964px;height:auto;margin:auto;padding:25px 30px 20px 30px;background:#37A6A6}
+div.stopka a{color:#ffffff;text-decoration:none}
+div.stopka a:hover{color:#000000;text-decoration:underline}
+div.linki-bottom{position:relative;width:880px;height:auto;padding-bottom:25px;margin:auto}
+div.linki-bottom h4{font-size:12px;margin-top:4px;margin-bottom:4px}
+div.linki-bottom table{width:100%;margin-top:10px}
+div.linki-bottom table td{vertical-align:top;padding:5px 30px 5px 5px}
+div.linki-bottom table td h4{margin:0px}
+div.linki-bottom table td a{color:#ffffff;font-size:10px;line-height:16px;margin-left:8px}
+div.linki-bottom table td a:hover{text-decoration:underline}
+div.valid{position:relative;float:left;top:2px}
+div.copyright{position:relative;float:right;top:2px;text-align:right}
