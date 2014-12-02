@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+	
+    
+    <Button android:id="@+id/btnRents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Moje wypożyczenie"
+        android:layout_marginTop="25dip"/>
+    
+    <Button android:id="@+id/btnCars"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokaż samochody"
+        android:layout_marginTop="25dip"/>
+    
+    <Button android:id="@+id/btnCloseChoose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wstecz"
+        android:layout_marginTop="25dip"/>
+
+</LinearLayout>

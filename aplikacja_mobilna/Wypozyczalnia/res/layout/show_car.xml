@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Marka samochodu"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputBrand"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	
+	
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputModel" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	     android:focusable="false"/>
+	
+	
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Silnik"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputEngine"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Moc"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+	
+	<EditText android:id="@+id/inputPower"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	
+	
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyposażenie"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputEquipment" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:lines="4"
+	    android:gravity="top"
+	    android:focusable="false"/>
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rok produkcji"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+
+	<EditText android:id="@+id/inputYear"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rejestracja"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputPlate"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nadwozie"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputBody"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kolor"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputColor"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    
+	<EditText android:id="@+id/inputPrice"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:focusable="false"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <!-- Button Create Product -->
+	<Button android:id="@+id/btnRent" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dip"
+	    android:text="Wypożycz"
+	    android:layout_weight="1"/>
+	
+		</LinearLayout>
+	
+</LinearLayout>
+</ScrollView>
